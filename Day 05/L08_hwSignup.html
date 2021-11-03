@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+        form{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(242, 250, 250);
+            padding: .05em 2em 2em 2em;
+            width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20%;
+        }
+        h3{
+            font-size: 20px;
+            text-align: center;
+            color: green;
+        }
+        h4{
+            color: rgb(238, 157, 5);
+        }
+        input, select, optgroup{
+            width: 345px;
+            height: 25px;
+            border: rgb(232, 232, 233);
+            background-color: rgb(232, 232, 233);
+            margin-top: 1mm;
+            margin-bottom: 1mm;
+        }
+        #b1, #b2{
+            width: auto;
+        }
+        #Bio{
+            width: 345px;
+            height: 50px;
+            margin-bottom: 2mm;
+        }
+        #btOK{
+            background-color: rgb(94, 201, 94);
+            color: white;
+            margin-top: 2.5em;
+            width: 380px;
+            height: 60px;
+            margin-left: -4mm;
+        }
+    </style>
+</head>
+<body>
+    <form action="/Day 05/L08_home.html">
+        <h3>Sign Up</h3>
+        <h4>Your basic info</h4>
+        Name: <br><input type="text" id="" required><br>
+        Email: <br><input type="text" id="" required><br>
+        Password: <br><input type="text" id="" required><br>
+        Age: <br><input type="radio" id="b1" name="Age" value="under18">
+             <label for="b1">Under 18</label>
+             <br><input type="radio" id="b2" name="Age" value="18plus">
+             <label for="b2">18 or older</label>
+        <h4>Your profile</h4>
+        Biography: <br><input type="text" id="Bio"><br>
+        Job Role: <br>
+        <select name="user_job" id="job">
+            <optgroup label="Web">
+                <option value="web">Web Designer</option>
+                <option value="WordPress">WordPress Developer</option>
+            </optgroup>
+            <optgroup label="Mobile">
+                <option value="Android">Android Developer</option>
+                <option value="iOS">iOS Developer</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option value="Owner">Business Owner</option>
+                <option value="Lancer">Freelancer</option>
+            </optgroup>
+            <optgroup label="Other">
+                <option value="Secretary">Secretary</option>
+                <option value="Maintenance">Maintenance</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="Sign Up" id="btOK">
+    </form>
+</body>
+</html>
