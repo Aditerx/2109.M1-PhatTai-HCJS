@@ -1,7 +1,7 @@
 form{
     border: solid thin green;
     width: 500px;
-    padding: .1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
 }
 label{
     margin-right: 7.5em;
@@ -32,7 +32,4 @@ input, select{
 }
 #i5{
     margin-left: -20px;
-}
-form{
-    padding-top: 1em;
 }

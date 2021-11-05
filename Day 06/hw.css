@@ -1,0 +1,196 @@
+    #navBar{
+        background-color: black;
+        color: white;
+        padding: .7em;
+        margin: -.5em;
+        font-weight: bold;
+        padding-top: .9em;
+        text-align: right;
+    }
+    a{
+        text-decoration: unset;
+        color: white;
+        padding: .7em;
+    }
+    a:hover{
+        border: solid lightyellow 1px;
+        background-color: lightyellow;
+        color: black;
+        padding: .7em .64em;
+    }
+    #logo{
+        float: left;
+        position: relative;
+        margin-top: -.7em;
+        margin-left: -.7em;
+    }
+    #logo:hover{
+        border: solid lightseagreen 1px;
+        background-color:lightseagreen ;
+        color: white;
+        padding: .6em .6em .7em .64em;
+    }
+    #Register{
+        margin-right: -.7em;
+        padding: 1em;
+    }
+    #Register:hover{
+        border: solid lightyellow 1px;
+        background-color: lightyellow;
+        color: black;
+        padding: .7em .94em;
+    }
+    h1{
+        border: solid 2px;
+        box-shadow: 2px 2px 2px lightgray;
+        text-align: center;
+        border-radius: .4em;
+        background-color: whitesmoke;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 9px;
+    }
+    body{
+        background-color: rgb(182, 231, 211);
+    }
+    table{
+        background-color: rgb(224, 238, 255);
+        width: 800px;
+        border: rgb(163, 193, 207) solid thin;
+        border-radius: 1.2mm;
+        box-shadow: 3px 3px 2px rgb(163, 193, 207);
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        margin-top: 15px;
+    }
+    #sourcePage{
+        color: rgb(107, 107, 107);
+        font-style: italic;
+    }
+    #sourcePage:hover{
+        padding: .2em;
+        border-radius: 1cm;
+        border: rgb(255, 226, 230);
+        background-color: rgb(255, 226, 230);
+    }
+    tr, td{
+        padding-left: .7em;
+        padding-right: .7em;
+    }
+    video{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #foot{
+        text-align: center;
+        padding: 1.5em;
+        margin: 1.8em -.4em -1em -1em;
+        background-color: black;
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    #foot2{
+        text-align: center;
+        padding: 1.5em;
+        margin: 26.35em -.47em -1em -1em;
+        background-color: black;
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    #foot3{
+        text-align: center;
+        padding: 1.5em;
+        margin: 16.78em -.47em -1em -1em;
+        background-color: black;
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    #genHome{
+        background-color: rgb(224, 238, 255);
+        width: 80%;
+        border: rgb(163, 193, 207) solid thin;
+        border-radius: 1.2mm;
+        box-shadow: 3px 3px 2px rgb(163, 193, 207);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0em .5em 1em .5em;
+        margin-top: 15px;
+    }
+    #logHome{
+        background-color: rgb(224, 238, 255);
+        width: 450px;
+        height: 175px;
+        text-align: center;
+        border: rgb(163, 193, 207) solid thin;
+        border-radius: 1.2mm;
+        box-shadow: 3px 3px 2px rgb(163, 193, 207);
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1em;
+        margin-top: 10em;
+    }
+    #logPass{
+        margin-left: 1mm;
+    }
+    #logOK{
+        width: 75px;
+        height: 25px;
+    }
+    #logReset{
+        width: 75px;
+        height: 25px;
+    }
+    form{
+        background-color: rgb(224, 238, 255);
+        border: rgb(163, 193, 207) solid thin;
+        border-radius: 1.2mm;
+        width: 375px;
+        padding: .5em 1em 1em 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+    }
+    label{
+        margin-right: 7.5em;
+    }
+    #resOK{
+        width: 80px;
+        height: 25px;
+        margin-left: 82px;
+        margin-top: .4em;
+        margin-bottom: .6em;
+    }
+    #resReset{
+        width: 80px;
+        height: 25px;
+        margin-left: 30px;
+        margin-bottom: .6em;
+    }
+    input, select{
+        width: 180px;
+    }
+    #i{
+        width: 25px;
+    }
+    #i1{
+        margin-left: -17px;
+    }
+    #i2{
+        margin-left: 6px;
+    }
+    #i3{
+        margin-left: -13px;
+        padding: .5mm;
+    }
+    #i4{
+        margin-left: -1px;
+    }
+    #i5{
+        margin-left: -21px;
+    }

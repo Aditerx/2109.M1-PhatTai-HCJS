@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="/Day 06/hw.css">
+</head>
+<body>
+    <div id="navBar">
+        <a href="/Day 06/L09_hw.html" id="logo">PT Audio</a>
+        <a href="/Day 06/hw_Genres.html" id="Genres">Genres</a>
+        <a href="/Day 06/hw_New.html" id="New">New</a>
+        <a href="/Day 06/hw_Login.html" id="MyList">My List</a>
+        <a href="/Day 06/hw_Login.html" id="Login">Login</a>
+        <a href="/Day 06/hw_Register.html" id="Register">Register</a>
+    </div>
+
+    <div id="resHome">
+        <form action="/Day 06/L09_hw.html" method="get">
+            <h2 style="margin-left: 6.05em; padding-bottom: .1em;">Sign up</h2>
+            <label for="">Username</label>
+            <input type="text" name="txtID" id="i5" 
+            placeholder="enter username" autofocus required> <br><br>
+
+            <label for="">Password</label>
+            <input type="password" name="txtPass" id="i1"
+            placeholder="enter password" required> <br><br>
+
+            <label for="">Email</label>
+            <input type="email" name="txtMail" id="i2" 
+            placeholder="enter email" required> <br><br>
+
+            <label for="">Gender</label>
+            Male <input type="radio" name="rdGender" id="i" checked 
+            value="male">
+            Female <input type="radio" name="rdGender" id="i"
+            value="female"> <br><br>       
+
+            <label for="">Location</label>
+            <select name="cbLoc" id="i3">
+                <option value="SG">Saigon</option>
+                <option value="HU">Hue</option>
+                <option value="HN">Hanoi</option>
+                <option value="CT">Cantho</option>
+            </select> <br><br>
+
+            <label for="">Birthday</label>
+            <input type="date" name="txtBD" id="i3" value="2000-05-15"> <br><br>
+
+            <input type="submit" value="Submit" name="btnOK" id="resOK">
+            <input type="reset" value="Reset" id="resReset">
+        </form>
+    </div>
+
+    <div id="foot3">&copy; PT Audio, All right reserved</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+
+    <script>
+        function showImage(obj, url){
+            obj.scr = url;
+        }
+    </script>
+</head>
+<body>
+    <h2>Event Demo</h2>
+    <hr>
+    <img src="../Images/Day 04/small img (png)/flower1.png"
+        onmousedown="showImage(this, '/Images/Day 03/espresso1.jpg')"
+        onmouseup="showImage(this, '/Images/Day 04/small img (png)/flower1.png')"
+    >
+</body>
+</html>
