@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw</title>
+    <style>
+        form{
+            border: solid thin;
+            width: 420px;
+            text-align: right;
+            margin-top: 1.5em;
+            background-color:beige ;
+        }
+        h2{
+            color: rgb(42, 143, 42);
+            text-align: left;
+            margin: 1.7em 1em 1em 1em;
+        }
+        input{
+            float: right;
+            margin-right: 5.5em;
+        }
+        #age{
+            margin: 0em 15.6em -2mm -.25em;
+            width: 42px;
+        }
+        label{
+            font-weight: bold;
+            margin-right: 1em;
+        }
+        #eLabel{
+            margin-right: .9em;
+        }
+        #eYes{
+            margin-right: 9em;
+            margin-top: .25em;
+        }
+        emYes{
+            margin-right: -3.5mm;
+        }
+        #eNo{
+            margin-top: -1.1em;
+        }
+        emNO{
+            margin-left: 5em;
+        }
+        hr{
+            margin-bottom: 1em;
+        }
+        #hr2{
+            margin-bottom: 3em;
+        }
+        #resOK{
+            margin-top: -2.8em;
+            margin-right: 18em;
+            width: 80px;
+            height: 28px;
+        }
+        #resCancel{
+            margin-top: -2.8em;
+            margin-right: 9em;
+            width: 80px;
+            height: 28px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" name="formRes" id="formRes" onsubmit="checkRes()">
+        <h2>Enter details of your account</h2>
+        <hr>
+        <label for="">First name</label>
+        <input type="text" name="fName" 
+        id="fName" autofocus required> <br><br>
+
+        <label for="">Last name</label>
+        <input type="text" name="lName" id="lName" required> <br><br>
+
+        <label for="">Email</label>
+        <input type="email" name="email"> <br><br>
+
+        <label for="">Age</label>
+        <select name="age" id="age">
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+        </select> <br><br>
+
+        <label for="" id="eLabel">Are you employed</label>
+        <emYes>Yes</emYes> <input type="checkbox" name="employed" 
+        value="yes" id="eYes">
+        <emNo>No</emNo> <input type="checkbox" name="employed" 
+        value="no" id="eNo"> <br><br>       
+
+        <hr id="hr2">
+        <input type="submit" value="OK" name="btnOK" id="resOK">
+        <input type="reset" value="Cancel" id="resCancel">
+    </form>
+
+    <script>
+        function checkRes(){
+            var f = formRes.fName.value;
+            var l = formRes.lName.value;
+
+            if(f=="Aptech" || l=="FPT"){
+                alert("Congratulations, you're account is good to use :D");
+            }
+            else{
+                alert("Invalid account!");
+            }
+        }
+    </script>
+</body>
+</html>
