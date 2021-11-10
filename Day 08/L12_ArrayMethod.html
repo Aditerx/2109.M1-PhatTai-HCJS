@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array method</title>
+    <script>
+        var a = new Array("Rose", "Sunflower", "Daisy");
+
+        document.write("<pre>");
+        document.writeln("<b>Number of flower:<b> " +a.length);
+        document.writeln("<b>Flower:</b> " +a.join(" * "));
+
+        a.push("Orchid", "Lily"); //Orchid and Lily are added
+        document.writeln("<b>Flowers after adding Orchid and Lily:</b> " +a);
+        document.writeln("<b>Flowers Removed:</b> " +a.pop());
+        document.writeln("<b>Flowers (In Ascending Order):</b> " +a.sort());
+
+        document.write("</pre>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

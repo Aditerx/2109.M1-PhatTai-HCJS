@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student array</title>
+</head>
+<body>
+    <script>
+        var number = parseInt(prompt("How many names would you like to store?"));
+        var list = new Array(number);
+        var j=0, k=0;
+
+        for(var i=0; i<number; i++){
+            list[i] = prompt("Enter student " +(j+1)+ " name: ");
+        }
+
+        list.sort();
+
+        for(var i in list){
+            document.write("Student " +(++k)+ " name: " +list[i]+ "<br>");
+        }
+    </script>
+</body>
+</html>
