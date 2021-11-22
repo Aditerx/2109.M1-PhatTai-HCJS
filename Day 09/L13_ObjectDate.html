@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date</title>
+</head>
+<body>
+    <script>
+        function calc_yourAge(){
+            var text_bd = document.getElementById("txtBD").value;
+            var bd = new Date(text_bd);
+            var year_bd = bd.getFullYear();
+
+            var today = new Date();
+            var year_today = today.getFullYear();
+            var age = year_today - year_bd;
+
+            alert("You are " +age+ " years old !");
+        }
+    </script>
+
+    <h2>Date Object Demo</h2>
+    <hr>
+    Enter your birthday: 
+    <input type="date" name="txtBD" id="txtBD" value="2006-03-29"><br>
+    <input type="button" name="btnGO" id="btnGO" value="GO" onclick="calc_yourAge()"><br>
+</body>
+</html>
