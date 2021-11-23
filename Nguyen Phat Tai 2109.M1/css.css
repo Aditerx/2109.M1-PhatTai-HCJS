@@ -1,0 +1,52 @@
+body{
+    background-color: blue;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#intro{
+    float: right;
+    text-align: center;
+}
+#img{
+    float: left;
+}
+#logo{
+    float: left;
+    margin-left: 10%;
+    margin-top: -1.2em;
+}
+#menu{
+    text-align: center;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    margin: 0cm .6cm 0cm .6cm;
+}
+#register{
+    color: black;
+}
+#body{
+    margin-left: 15%;
+    padding-top: 2em;
+}
+li{
+    list-style-type: square;
+}
+#copy{
+    margin-top: 17.5cm;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+form{
+    
+    margin-left: 40%;
+}

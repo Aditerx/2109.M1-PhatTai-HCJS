@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buten</title>
+    <link rel="stylesheet" href="../Nguyen Phat Tai 2109.M1/css.css">
+    <script src="../jquery-3.6.0.min.js"></script>
+    <script src="../Nguyen Phat Tai 2109.M1/js.js"></script>
+</head>
+<body>
+    <nav id="menu">
+        <a href="#"><img src="../Nguyen Phat Tai 2109.M1/images_set11/logo.png" id="logo"></a>
+        <a href="#" id="home">Home</a>
+        <a href="#" id="about">About</a>
+        <a href="#" id="features">Features</a>
+        <a href="#" id="product">Product</a>
+        <a href="#" id="reviews">Reviews</a>
+        <a href="#" id="faq">Faq</a>
+        <a href="#" id="register">Register</a>
+    </nav>
+
+    <section id="formlogin">
+        <div id="member">
+            <h2>Register Product</h2>
+        </div>
+        <form action="" method="POST" name="register" onsubmit="return get()">
+            <table id="table1">
+                <tr>
+                    <td class="cell2"><input type="text" name="txtUser" id="txtUser"
+                            placeholder="Username*" required></td>
+                </tr>
+                <tr>
+                    <td class="cell2"><input type="text" name="txtPass" id="txtPass"
+                            placeholder="Password*" required></td>
+                </tr>
+                <tr>
+                    <td class="cell2"><input type="text" name="txtPass2" id="txtPass2"
+                            placeholder="Retype Password*" required></td>
+                </tr>
+                <tr>
+                    <td class="cell2"><input type="text" name="txtFirst" id="txtFirst"
+                            placeholder="First Name*" required></td>
+                </tr>
+                <tr>
+                    <td class="cell2"><input type="text" name="txtLast" id="txtLast"
+                            placeholder="Last Name*" required></td>
+                </tr>
+                <tr>
+                    <td class="cell2"><input type="email" name="txtMail" id="txtMail"
+                            placeholder="Email*" required></td>
+                </tr>
+
+                <tr>
+                    <td class="cell2"><input type="tel" name="phone" id="phone" pattern="[0-9]{6,10}"
+                        placeholder="Phone*" required></td>
+                </tr>
+                <tr>
+                    <td class="cell2"><textarea name="txtcom" id="txtcom" cols="1" rows="1" value=""
+                        placeholder="Tell Us About Product"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Choose colour:</td>
+                    <td><input type="radio" name="c" id="cBlack">Black</td>
+                    <td><input type="radio" name="c" id="cPink">Pink</td>
+                    <td><input type="radio" name="c" id="cRed">Red</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Register" id="submit">
+                        <input type="reset" value="Reset" id="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <p id="copy">Copy &copy; 2021, All Rights Reserved By Buten</p>
+</body>
+</html>
