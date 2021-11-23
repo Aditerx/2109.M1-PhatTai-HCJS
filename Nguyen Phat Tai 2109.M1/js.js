@@ -18,7 +18,7 @@ function checkLogin(){
         return false;
     }
 
-    if(teL == ""){
+    if(tel == ""){
         alert("Telephone must not be blank!");
         return false;
     }
